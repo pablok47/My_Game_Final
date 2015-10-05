@@ -22,7 +22,7 @@ def guessed_right(car)
       puts "cool you win you got paid $$$"
       puts user_answer
     else 
-      puts "you lose....now you are in jail for jacking the wrong car"
+      puts "you lose....back to syria"
     end
   when "to close a business deal"
    	cars = ["rolls royce", "bently", "tesla"]
