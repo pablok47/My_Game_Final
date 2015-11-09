@@ -13,10 +13,10 @@ def spacer
   puts " "
 end
 def guessed_right(car)
-	case car	
-	when "to get paid"
-		cars = ["ferrari", "porsche", "lambo"]
-		last_question
+ case car	
+ when "to get paid"
+	cars = ["ferrari", "porsche", "lambo"]
+	last_question
     user_answer = gets.chomp.downcase
     if cars.include? user_answer
       puts "cool you win you got paid $$$"
@@ -90,19 +90,20 @@ intro("Options: slide hammer, slim jim, code grabber")
 jacking_tool = gets.chomp.downcase
 
 case jacking_tool
-	when "slide hammer"
+when "slide hammer"
     spacer
-		puts "ok you're ready for business"
-	when "slim jim"
+    puts "ok you're ready for business"
+when "slim jim"
     spacer
-		puts "What? you going old school"
-	when "code grabber"
+    puts "What? you going old school"
+when "code grabber"
     spacer
-		puts "nice, very hi-tech"
-	else 
+    puts "nice, very hi-tech"
+else 
     spacer
-		puts "sorry, we don't have that in stock"
-	end
+    puts "sorry, we don't have that in stock"
+	
+end
 
 #Q2
 intro("Where you gonna jack first???")
@@ -110,19 +111,19 @@ intro("Options: coral gables, brickell, wynwood")
 location = gets.chomp.downcase
 
 case location
-	when "coral gables"
+when "coral gables"
     spacer
-		puts "snap! that place is loaded with cops"
-	when "brickell"
+    puts "snap! that place is loaded with cops"
+when "brickell"
     spacer
-		puts "what are you some kind of business man?"
-	when "wynwood"
+    puts "what are you some kind of business man?"
+when "wynwood"
     spacer
-		puts "nice! there should be some high-end stuff there"
-	else
+    puts "nice! there should be some high-end stuff there"
+else
     spacer
-		puts "hahahaha...you're wasting your time there"
-	end
+    puts "hahahaha...you're wasting your time there"
+end
 
 #Q3
 spacer
